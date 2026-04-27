@@ -70,3 +70,14 @@ section::before {
     background: linear-gradient(90deg, #f1093f, transparent);
     margin-bottom: 10px;
 }
+
+/* Profile Image Circle */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* makes it a circle */
+    object-fit: cover;  /* prevents stretching */
+    display: block;
+    margin: 0 auto 20px auto; /* center it */
+    border: 3px solid #58a6ff;
+}
