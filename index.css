@@ -43,7 +43,7 @@ section:hover {
 h2 {
     color: #58a6ff;
     margin-bottom: 10px;
-    border-left: 4px solid #238636;
+    border-left: 4px solid #352386;
     padding-left: 10px;
 }
 
@@ -67,6 +67,6 @@ section::before {
     content: "";
     display: block;
     height: 2px;
-    background: linear-gradient(90deg, #58a6ff, transparent);
+    background: linear-gradient(90deg, #f1093f, transparent);
     margin-bottom: 10px;
 }
