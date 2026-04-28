@@ -38,6 +38,18 @@
         <li>Explore engineering careers</li>
     </ul>
 </div>
+<audio autoplay loop muted id="bg-music">
+    <source src="HatsuneMikuBG.mp3" type="audio/mpeg">
+</audio>
 
+<button onclick="playMusic()">Play Music</button>
+
+<script>
+    function playMusic() {
+        const audio = document.getElementById("bg-music");
+        audio.muted = false;
+        audio.play();
+    }
+</script>
 </body>
 </html>

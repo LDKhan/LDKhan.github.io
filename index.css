@@ -81,3 +81,17 @@ section::before {
     margin: 0 auto 20px auto; /* center it */
     border: 3px solid #58a6ff;
 }
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 12px;
+    background: #238636;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2ea043;
+}
